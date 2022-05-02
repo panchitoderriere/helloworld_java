@@ -8,7 +8,7 @@
     <version>0.2.0</version>
 
     <build>
-        <finalName>${groupId}-${version}.${packaging}</finalName>
+        <finalName>${artifactId}-${version}.${packaging}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
