@@ -16,5 +16,5 @@ jobs:
       - name: Build Java Application
         run: mvn install verify
       - name: Test
-        run: java -jar jb-hello-world-maven-0.2.0.jar
+        run: java -jar target/jb-hello-world-maven-0.2.0.jar
       - run: echo "🍏 This job's status is ${{ job.status }}."
